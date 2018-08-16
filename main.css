@@ -3,3 +3,26 @@
     align-items: flex-start;
     flex-direction: column;
 }
+
+
+body{
+    background-image: url("https://i.imgur.com/TcTWPAP.jpg")
+}
+
+.container-fluid{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#animeInfo {
+    color: whitesmoke;
+}
+
+#usrForm {
+    background-color: whitesmoke;
+}
+
+.daBest{
+    color:gray;
+}
