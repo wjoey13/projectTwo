@@ -15,6 +15,16 @@ body{
     justify-content: center;
 }
 
+.daBest{
+    color:gray;
+}
+
+.fave{
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+}
+
 #animeInfo {
     color: whitesmoke;
 }
@@ -23,6 +33,3 @@ body{
     background-color: whitesmoke;
 }
 
-.daBest{
-    color:gray;
-}
