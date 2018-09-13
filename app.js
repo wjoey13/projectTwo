@@ -16,7 +16,7 @@ axios.get("https://kitsu.io/api/edge/anime?page[limit]=20&page[offset]=0").then(
         aTube.push(result.data['data'][i]['attributes']['youtubeVideoId'])
     }
   assignDropDown(aT)
- 
+   console.log(aT)
     animeTitles.addEventListener("change", function(){
         animeCover.setAttribute('src', aTPic[animeTitles.value]);
         animeInfo.innerText = (aI[animeTitles.value]);
